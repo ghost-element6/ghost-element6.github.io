@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:gray">
+<body style="background-color:black">
 
 <center>
     <h1 style="font-size:4em; ">Beware the shadow</h1>
 
     <p style="font-size:35px; ">Ghosts are real.</p>
-
+    <style>
+      img {
+        border: 8px solid #359
+      }
+      </style>
     <img src= "http://legendsofamerica.com/images/ghost.JPG" alt="ghost" />
     </br></br></br>
-    <a href="https://www.hoppersroppers.org/"> Learn CTF at Roppers Academy</a>
-    </br></br></br>
-    <button onclick="myFunction()">Do not click me</button>
 
-<p id="demo"></p>
+<p style="color: aliceblue; "> CLICK ANYWHERE</p>
 
 <script>
+window.onclick = myFunction;
+
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Bad boy";
+  document.getElementsByTagName("BODY")[0].style.backgroundColor = "grey";
 }
 </script>
+</br></br></br>
+
+<a style="font-size:35px; color:black "href="https://www.hoppersroppers.org/"> Click here to learn CTF @ Roppers Academy</a>
+
 </center>
 </body>
 </html>
